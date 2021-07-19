@@ -43,7 +43,7 @@ A Buck converter step down voltage from its input to its output load.
 A Boost converter step up voltage from its input to its output load.
 It offers high efficiency with low cost and components.
 
-COMPONENTS
+Components
 
 DC voltage source,
 MOSFETs,
@@ -56,7 +56,7 @@ Capacitor,
 Simulation
 
 Software : Matlab,
- Version    : 2021a
+Version : 2021a
 
 MPPT using P&O algorithm
 
