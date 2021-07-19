@@ -43,8 +43,6 @@ A Buck converter step down voltage from its input to its output load.
 A Boost converter step up voltage from its input to its output load.
 It offers high efficiency with low cost and components.
 
-BuckBoost converter
-
 COMPONENTS
 
 DC voltage source,
