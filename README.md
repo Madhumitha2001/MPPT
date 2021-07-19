@@ -16,9 +16,6 @@ Photovoltaic cell - Characteristics
 
 MPPT Techniques
 
-Perturb and Observe algorithm 
-Incremental conductance 
-
 Perturb and Observe Algorithm
 
 ![image](https://user-images.githubusercontent.com/87081314/126139403-4066688c-8876-4f98-a13c-baec8a4ce34b.png)
@@ -50,22 +47,23 @@ BuckBoost converter
 
 COMPONENTS
 
-DC voltage source
-MOSFETs
-Inductor
-Diode
-Capacitor
+DC voltage source,
+MOSFETs,
+Inductor,
+Diode,
+Capacitor,
 
 ![image](https://user-images.githubusercontent.com/87081314/126140816-d375dbf4-d95f-457b-8590-b79140e4af79.png)
 
 Simulation
 
-Software : Matlab
+Software : Matlab,
  Version    : 2021a
 
 MPPT using P&O algorithm
 
 ![image](https://user-images.githubusercontent.com/87081314/126141565-562727ec-4eb1-468f-9177-ea6e87931c11.png)
+
 Results
 
 ![image](https://user-images.githubusercontent.com/87081314/126141650-be224415-c3f1-47cd-ad21-44980aca2fdf.png)
