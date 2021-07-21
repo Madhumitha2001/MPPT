@@ -60,9 +60,7 @@ Capacitor,
 
 Simulation
 
-Software : MATLAB
-Language : MATLAB compiler
-Version  : R2021a
+Software : MATLAB,      Language : MATLAB compiler,        Version  : R2021a.
 
 The project focuses on the MATLAB/Simulink model for continuous monitoring of maximum output of a PV panel, conducted a comparative analysis of buck-boost converter with two algorithms “Perturb and Observe” and “Incremental conductance”.
 
@@ -70,11 +68,7 @@ The project focuses on the MATLAB/Simulink model for continuous monitoring of ma
 How to run?
 
 Open mpptbuckboostpando.mdl, mpptbuckboostIC.mdl file with MATLAB/Simulink, set the configuration parameters as 
-
-Type  : fixed step,
-
-Solver:discrete and run the simulation.
-
+Type  : fixed step,       Solver:discrete and run the simulation,
 Click on the scope to have a graphical view.
 
 Working of simulation
