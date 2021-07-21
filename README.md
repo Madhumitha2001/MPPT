@@ -11,10 +11,7 @@ MPPT maximizes the array efficiency, thereby reducing the overall system cost.
 
 Photovoltaic cell - Characteristics
 
-PV array 30V, 230 Watt single array.
-DC-DC buck-boost converter.
-12V, 100ah battery.
-MPPT algorithm P&O and IC.
+PV array 30V,  230 Watt single array,  DC-DC buck-boost converter,  12V, 100ah battery,    MPPT algorithm P&O and IC.
 
 ![image](https://user-images.githubusercontent.com/87081314/126138977-a428286b-4f05-454a-bf54-ff2ea2233f63.png)
 
