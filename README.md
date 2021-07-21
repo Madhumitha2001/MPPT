@@ -55,24 +55,26 @@ Capacitor,
 
 Simulation
 
-Software : Matlab,
-Version : 2021a
+Software : MATLAB,
+Language : MATLAB compiler,
+Version  : R2021a
 
-MPPT using P&O algorithm
+The project focuses on the MATLAB/Simulink model for continuous monitoring of maximum output of a PV panel, conducted a comparative analysis of buck-boost converter with two algorithms “Perturb and Observe” and “Incremental conductance”.
+![image](https://user-images.githubusercontent.com/87081314/126437158-779b589e-07ee-4afb-97dc-773e7b536ed9.png)
 
-![image](https://user-images.githubusercontent.com/87081314/126141565-562727ec-4eb1-468f-9177-ea6e87931c11.png)
+How to run?
 
-Results
+Open mpptbuckboostpando.mdl, mpptbuckboostIC.mdl file with MATLAB/Simulink, set the configuration parameters as 
+Type : fixed step,
+Solver:discrete and run the simulation.  
+Click on the scope to have a graphical view.
+![image](https://user-images.githubusercontent.com/87081314/126437227-034a33c0-6c29-4bfb-8c81-910421daaeea.png)
 
-![image](https://user-images.githubusercontent.com/87081314/126141650-be224415-c3f1-47cd-ad21-44980aca2fdf.png)
+Working of simulation
 
-MPPT using Incremental Conductance
-
-![image](https://user-images.githubusercontent.com/87081314/126142058-6d2f3383-a963-4e5a-80e3-e3e742c47142.png)
-
-Results
-
-![image](https://user-images.githubusercontent.com/87081314/126142117-8e573a07-011a-4756-b160-05ab997ff3d0.png)
+The PV panel measures the PV voltage, the PV current introduced in the MPPT function that gives the necessary increase/decrease of the working cycle for the MOSFET switching.
+As the irradiance decreases, the PV power falls  that  is visible as a drop in the current on the load.
+![image](https://user-images.githubusercontent.com/87081314/126437294-8cc7f38c-be81-440f-8872-991bb1773fd8.png)
 
 
 
