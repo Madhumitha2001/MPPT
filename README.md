@@ -11,6 +11,11 @@ MPPT maximizes the array efficiency, thereby reducing the overall system cost.
 
 Photovoltaic cell - Characteristics
 
+PV array 30V, 230 Watt single array.
+DC-DC buck-boost converter.
+12V, 100ah battery.
+MPPT algorithm P&O and IC.
+
 ![image](https://user-images.githubusercontent.com/87081314/126138977-a428286b-4f05-454a-bf54-ff2ea2233f63.png)
 
 
@@ -55,26 +60,28 @@ Capacitor,
 
 Simulation
 
-Software : MATLAB,
-Language : MATLAB compiler,
+Software : MATLAB
+Language : MATLAB compiler
 Version  : R2021a
 
 The project focuses on the MATLAB/Simulink model for continuous monitoring of maximum output of a PV panel, conducted a comparative analysis of buck-boost converter with two algorithms “Perturb and Observe” and “Incremental conductance”.
-![image](https://user-images.githubusercontent.com/87081314/126437158-779b589e-07ee-4afb-97dc-773e7b536ed9.png)
+
 
 How to run?
 
 Open mpptbuckboostpando.mdl, mpptbuckboostIC.mdl file with MATLAB/Simulink, set the configuration parameters as 
-Type : fixed step,
-Solver:discrete and run the simulation.  
+
+Type  : fixed step,
+
+Solver:discrete and run the simulation.
+
 Click on the scope to have a graphical view.
-![image](https://user-images.githubusercontent.com/87081314/126437227-034a33c0-6c29-4bfb-8c81-910421daaeea.png)
 
 Working of simulation
 
 The PV panel measures the PV voltage, the PV current introduced in the MPPT function that gives the necessary increase/decrease of the working cycle for the MOSFET switching.
 As the irradiance decreases, the PV power falls  that  is visible as a drop in the current on the load.
-![image](https://user-images.githubusercontent.com/87081314/126437294-8cc7f38c-be81-440f-8872-991bb1773fd8.png)
+
 
 
 
