@@ -68,9 +68,9 @@ The project focuses on the MATLAB/Simulink model for continuous monitoring of ma
 
 ##### How to run?
 
-Open mpptbuckboostpando.mdl, mpptbuckboostIC.mdl file with MATLAB/Simulink.
+Open mpptbuckboostpando.mdl, mpptbuckboostIncrementalConductance.slx file with MATLAB/Simulink.
 Set the configuration parameters as Type:Fixed step,Solver:Discrete 
-Run the simulation,
+Run the simulation
 Click on the scope to have a graphical view.
 
 ###### Working of simulation
