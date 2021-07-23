@@ -9,8 +9,7 @@ MPPT maximizes the array efficiency, thereby reducing the overall system cost.
 
 ![image](https://user-images.githubusercontent.com/87081314/126138731-f442574f-d273-494b-878a-a72741259489.png)
 
-## Photovoltaic cell - Characteristics
-
+## PV Cell Decription
  - PV array 30V, 230 Watt,single array
  - DC-DC buck-boost converter
  - 12V, 100ah battery
@@ -57,7 +56,7 @@ Capacitor
 
 ![image](https://user-images.githubusercontent.com/87081314/126140816-d375dbf4-d95f-457b-8590-b79140e4af79.png)
 
-#### System requirements
+#### **System requirements**
 
 Simulation Software: **MATLAB**
 Version: **R2017** and above can be used  
@@ -66,18 +65,23 @@ The project focuses on the MATLAB/Simulink model for continuous monitoring of ma
 
 
 
-##### How to run?
+##### **How to run?**
 
 Open mpptbuckboostpando.mdl, mpptbuckboostIncrementalConductance.slx file with MATLAB/Simulink.
 Set the configuration parameters as Type:Fixed step,Solver:Discrete 
 Run the simulation
 Click on the scope to have a graphical view.
 
-###### Working of simulation
+###### **Working of simulation**
 
 The PV panel measure gives the PV voltage, the PV current that is  introduced in the MPPT function that gives the necessary increase/decrease of the duty cycle for the MOSFET switching in the dc-dc converter.
 As the irradiance decreases, the PV power falls  that  is visible as a drop in the current on the battery side.
 
+###### **Contributions**
+- Asma Ul Husna
+- Dharani
+- Madhumitha
+**Mentored by**:Kiran Kumar
 
 
 
